@@ -54,3 +54,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# A simple HTTP and REST client for Ruby
+gem 'rest-client', '~> 1.8'
+#ActiveInteraction manages application-specific business logic. It is an implementation of the command pattern in Ruby
+gem "active_interaction", "~> 3.6"
+
