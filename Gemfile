@@ -41,7 +41,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   #Loads environment variables from `.env`.
-  gem 'dotenv', '~> 2.1', '>= 2.1.1'
+  gem "dotenv-rails"
 end
 
 group :test do
@@ -55,7 +55,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # A simple HTTP and REST client for Ruby
-gem 'rest-client', '~> 1.8'
+gem 'rest-client', '2.1.0'
 #ActiveInteraction manages application-specific business logic. It is an implementation of the command pattern in Ruby
 gem "active_interaction", "~> 3.6"
 
