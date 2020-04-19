@@ -1,6 +1,7 @@
 class Widgets::Visible < ActiveInteraction::Base
 
-  string :token
+  string :token, default: nil
+  string :term, default: nil
 
   def execute
     url = "#{ENV['SHOWOFF_URL']}/api/v1/widgets/visible"
@@ -8,6 +9,7 @@ class Widgets::Visible < ActiveInteraction::Base
                 params: {
                           client_id: ENV['CLIENT_ID'],
                           client_secret: ENV['CLIENT_SECRET'],
+                          term: term
                         },
                 Authorization: "Bearer #{token}"
               }
