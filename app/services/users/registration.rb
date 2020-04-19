@@ -26,7 +26,7 @@ class Users::Registration < ActiveInteraction::Base
       response = RestClient.post(url, payload.to_json, headers)
       JSON.parse(response.body)
     rescue => e
-      errors.add(:login, message: e.message)
+      errors.add(:registration, message: e.message)
     end
   end
 
