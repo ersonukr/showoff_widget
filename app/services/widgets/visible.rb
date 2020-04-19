@@ -17,7 +17,7 @@ class Widgets::Visible < ActiveInteraction::Base
       response = RestClient.get(url, payload)
       JSON.parse(response.body)
     rescue => e
-      errors.add(:password, message: e.message)
+      errors.add(:visible, message: e.message)
     end
   end
 end
