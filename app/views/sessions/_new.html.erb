@@ -1,0 +1,24 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="loginModalLabel">Sign In</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <%= form_with url: sessions_path do |f| %>
+    <div class="form-group">
+      <%= f.label :email %><br />
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control"%>
+    </div>
+    <div class="form-group">
+      <%= f.label :password %><br />
+      <%= f.password_field :password, autocomplete: "current-password", class:"form-control" %>
+    </div>
+    <div class="form-group">
+      <%= f.submit "Log in", class:"btn btn-primary form-control" %>
+    </div>
+  <% end %>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
