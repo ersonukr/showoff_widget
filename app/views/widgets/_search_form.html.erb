@@ -1,0 +1,4 @@
+<%= form_with url: widgets_path, method: :get, class: "form-inline" do |f| %>
+    <%= f.text_field :term, autofocus: true, placeholder: 'Search', class:"form-control mr-sm-2"%>
+    <%= f.submit "Search", class: "btn btn-outline-success my-2 my-sm-0" %>
+<% end %>

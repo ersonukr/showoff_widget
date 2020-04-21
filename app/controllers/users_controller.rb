@@ -15,6 +15,14 @@ class UsersController < ApplicationController
     redirect_to widgets_path
   end
 
+  def widgets
+    outcome = Users::Widgets.run(token: current_user)
+    if outcome.valid?
+      @widgets = outcome.result.dig('data', 'widgets')
+      flash[:success] = "#{@widgets.count} widgets found"
+    end
+  end
+
   def reset_password
     unless request.get?
       outcome = Users::ResetPassword.run({user: params[:user]})

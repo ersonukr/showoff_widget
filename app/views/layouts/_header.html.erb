@@ -6,8 +6,15 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <ul class="navbar-nav mr-auto">
       <% if current_user %>
-        <li class="nav-item"><%= link_to "My Widgets", sessions_path, method: :delete, class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Log Out", sessions_path, method: :delete, class: "nav-link" %></li>
+        <li class="nav-item">
+          <%= link_to "My Widgets", widgets_users_path, {remote: true, class: "nav-link"} %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Create Widget", new_widget_path, { remote: true, 'data-toggle':  "modal", 'data-target': '#widget_form', class: "nav-link"} %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Log Out", sessions_path, method: :delete, class: "nav-link" %>
+        </li>
       <% else %>
         <li class="nav-item">
           <%= link_to 'Sign In', new_sessions_path, { remote: true, 'data-toggle':  "modal", 'data-target': '#login_form', class: "nav-link"} %>
@@ -24,3 +31,4 @@
 <%= render partial: 'sessions/login_modal' %>
 <%= render partial: 'users/registration_modal' %>
 <%= render partial: 'users/reset_password_modal' %>
+<%= render partial: 'widgets/widget_modal' %>

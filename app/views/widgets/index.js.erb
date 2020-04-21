@@ -1,0 +1,2 @@
+$("#widgetsDiv").find(".widgetsContent").html("<%= escape_javascript(render partial: 'widgets', locals: { widgets: @widgets }) %>");
+$("#flashMsg").html("<%= escape_javascript(render partial: 'layouts/flash', locals: { flash: flash }) %>");

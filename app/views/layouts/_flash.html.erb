@@ -5,3 +5,10 @@
     </div>
   <% end %>
 </div>
+<script>
+    $(function() {
+        $('.flash-message').delay(500).fadeIn('normal', function() {
+            $(this).delay(1500).fadeOut();
+        });
+    });
+</script>

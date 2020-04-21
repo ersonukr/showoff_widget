@@ -4,9 +4,10 @@ Rails.application.routes.draw do
   resource :sessions, only: [:new, :create, :destroy]
   resources :users, only: [:new, :create] do
     collection do
+      get :reset_password
       post :reset_password
       get  :widgets
     end
   end
-  resources :widgets, only: [:index, :create]
+  resources :widgets, only: [:index, :new, :create]
 end

@@ -1,0 +1,22 @@
+<% if widget.present? %>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><%= truncate(widget['name'], length: 20) %></h5>
+        <p class="card-text"><%= truncate(widget['description'], length: 25) %></p>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-12 usr_img">
+            <%= image_tag widget.dig('user', 'images', 'small_url')%>
+          </div>
+          <div class="col-sm-12">
+            <p class="card-text"><%= widget.dig('user', 'first_name') %> <%= widget.dig('user', 'last_name') %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% else %>
+  <p class="card-title">Sorry! No Widget found</p>
+<% end %>

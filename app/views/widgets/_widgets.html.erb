@@ -1,0 +1,11 @@
+<div id="widgetsDiv">
+  <div class="row widgetsContent">
+    <% if widgets.present? %>
+      <% widgets.each do |widget| %>
+        <%= render partial: 'widgets/widget', locals: {widget: widget} %>
+      <% end %>
+    <% else %>
+      <p class="card-title">Sorry! No Widget found</p>
+    <% end %>
+  </div>
+</div>
