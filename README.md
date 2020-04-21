@@ -1,24 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisite 
 
-Things you may want to cover:
+* ruby 2.7.0
 
-* Ruby version
+* Rails 6.0.2.2
 
-* System dependencies
+* Shows off api keys in .env file. 
 
-* Configuration
+## Configuration
 
-* Database creation
+```
+$ gem install bundler
+```
+```
+$ bundle install
+```
+```
+cp .env.example .env
+```
+```
+$ rails db:prepare
+```
 
-* Database initialization
+```
+$ rails s
+```
 
-* How to run the test suite
+## Notes
+* You might have to install yarn after that please run below command
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ yarn add bootstrap jquery
+$ webpacker:install
+```
