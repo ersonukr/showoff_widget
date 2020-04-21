@@ -1,4 +1,7 @@
 class WidgetsController < ApplicationController
+
+  before_action :current_user, only: :create
+
   def index
     outcome = Widgets::Visible.run(term: params[:term])
     if outcome.valid?

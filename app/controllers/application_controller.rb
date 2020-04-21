@@ -4,7 +4,11 @@ class ApplicationController < ActionController::Base
 
   private
   def current_user
-    session[:user_token]
+    token = session[:user_token]
+    unless token
+      flash[:success] = 'Please login or Sign Up before proceeding!'
+    end
+    token
   end
 
 end
