@@ -778,98 +778,6 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@pnotify/animate@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/animate/-/animate-5.0.1.tgz#4c9bf9be5dd9b2c9e19c9f4f2d8cbf842ba26695"
-  integrity sha512-Icc+AAwP0UyOBdSFAckvOk5rxpkE4eHTiLnMWzkvb0RioFOeIUKq309r/n+MJMl5si6ma7Mhv8LHn9tnWp/9SA==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/bootstrap3@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/bootstrap3/-/bootstrap3-5.0.1.tgz#25d92d618ab367c2a09af8dba43a361092abd6a0"
-  integrity sha512-l9RsuIo27Y6+SsiQo0Coyo8JysPM3nIe9xtlCjrag7s4d6K8Qyspuz6PjYeCYKqURGndZqyJ2Mzp1A8QIJkFlA==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/bootstrap4@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/bootstrap4/-/bootstrap4-5.0.1.tgz#23222c7dd4a57d7088341fc88a6704e765b1e123"
-  integrity sha512-7w+oATh8JMHsEPxKHvvzMhO84lvac0vW1dUsiwMqf/qkyz1rE8FFTla5lNhg21Lun6ACFQf16Cajaj+j5qNE9g==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/confirm@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/confirm/-/confirm-5.0.1.tgz#0353ecaeac3f8aeecea79c5838668fbbedea4af1"
-  integrity sha512-Njy9tPDlgh2Kigt9AF7B9R/OFT4SW/5JpzTA3EHay4W6NUWGPlKTPVCMxfW09JUcgN3PWb1p3/vpicGJmWbsOg==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/core@5.0.1", "@pnotify/core@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/core/-/core-5.0.1.tgz#1510150429a1a87362fa3c5f3dcec1aaf7c81b66"
-  integrity sha512-z78KIob8Hf4jOq8W1/dPYtCUz4i0wN1//Pu8dgOz/se1fdhwZfvcTpqcya6YHOT800OCQ3Ni+SbasTX4cOgXPg==
-  dependencies:
-    "@smui/common" "^1.0.0-beta.20"
-    svelte "^3.19.1"
-
-"@pnotify/countdown@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/countdown/-/countdown-5.0.1.tgz#80ad4b620d91d5373bbef52ecfe7f2a7d4d4c34f"
-  integrity sha512-ADYtqw8ZD4MpDClwKiFsAmOif3xfGdX4xjO9AakrBrzibg5H9xs4uBW4erWUp4lXShsKrJ+Mzp4fpRZUAd4R8g==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/desktop@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/desktop/-/desktop-5.0.1.tgz#0669eb740262168fcd013be6c498b2f91d9cbbd8"
-  integrity sha512-PtE0EqEM58v7xdAmSXaKdKsU4YVNOUSiT1Fnb7OQJ+jf8CPkDZ56qCGDOLzQJkz6tWQmfXeYEm0iyfiE7xQ71A==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/font-awesome4@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/font-awesome4/-/font-awesome4-5.0.1.tgz#57d42db770983d679935c3130aca660d4a25b98b"
-  integrity sha512-c66Spf7XjH22wZMJCbNRnu+OYoMskRtVWxqf9idKTrnU4CJzhd3pshuxwf5eZYU8eA8kg1EuH1VVk3pOQ/s/xA==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/font-awesome5-fix@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/font-awesome5-fix/-/font-awesome5-fix-5.0.1.tgz#d64acaf99edbae1f5e48f9bdcbe797664956fd05"
-  integrity sha512-yDliLuLhu401I8/AveTRbd9l9I8woM9JJA7QSnEjvRstE26pB2nVCne6urfgGD31+kRx0ig0xdXacBfwq5aybg==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/font-awesome5@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/font-awesome5/-/font-awesome5-5.0.1.tgz#e4585b6af304341441610a759e3490d43a1fd091"
-  integrity sha512-PEhLkFmbP9GAOJ48yYpkvgd5364h7gXLqkaFhOG4h1yaEGxvxrX5o9KyfF879xtKH1iMzhPJq6iwS9r3TGy1yQ==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/glyphicon@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/glyphicon/-/glyphicon-5.0.1.tgz#aa0e77efe95e78a81b21a7ec6ed68f54b566d5cc"
-  integrity sha512-3PL1TaxWolX5LbZhKjt2qENNcry/6tcT4dpE2gQCbFgxv9qE76Xtb6lfR9LBFVme+h9AFMTOxfumUWDtHIkFpw==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/mobile@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/mobile/-/mobile-5.0.1.tgz#9d7b184729ffca65dc55f932dc92cbdf70589dec"
-  integrity sha512-///9nhLxq0RMMzSDxxNrPEYWFJvm9JzV0XxjgKydjXYyHAJVH3ch6S0b0LE3rXBeG0+F4B585N9Z9gacQnA1FA==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
-"@pnotify/reference@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@pnotify/reference/-/reference-5.0.1.tgz#579fb9d4aa980814b9118221d86e22cb91575066"
-  integrity sha512-AW7d/y6Nm9WNMHnudTiI4IfUVbERE/4EUd/dWOf/o7WbW5xOxtc1Y3zViYbrK6eLp308Wg2kxCrOhsBMdR3wOw==
-  dependencies:
-    "@pnotify/core" "^5.0.1"
-
 "@rails/actioncable@^6.0.0":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-6.0.2.tgz#bcba9bcd6ee09a47c6628336e07399a68ca87814"
@@ -930,13 +838,6 @@
     webpack-assets-manifest "^3.1.1"
     webpack-cli "^3.3.10"
     webpack-sources "^1.4.3"
-
-"@smui/common@^1.0.0-beta.20":
-  version "1.0.0-beta.21"
-  resolved "https://registry.yarnpkg.com/@smui/common/-/common-1.0.0-beta.21.tgz#f81f659542a189dbf2e04edc78fcfed408db0a58"
-  integrity sha512-t063AKMVeKLl91C7HyMqWerrEMal1rIAHis6kH/HRWuqudLfQ2vrGCKq3SMLEL6t4OqgiXg122g0FDBk5t4M1A==
-  dependencies:
-    svelte "^3.0"
 
 "@types/events@*":
   version "3.0.0"
@@ -2778,9 +2679,9 @@ events@^3.0.0:
   integrity sha512-Rv+u8MLHNOdMjTAFeT3nCjHn2aGlx435FP/sDHNaRhDEMwyI/aB22Kj2qIN8R0cw3z28psEQLYwxVKLsKrMgWg==
 
 eventsource@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.0.7.tgz#8fbc72c93fcd34088090bc0a4e64f4b5cee6d8d0"
-  integrity sha512-4Ln17+vVT0k8aWq+t/bF5arcS3EpT9gYtW66EPacdj/mAFevznsnyoHLPy2BA8gbIQeIHoPsvwmfBftfcG//BQ==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.1.tgz#4544a35a57d7120fba4fa4c86cb4023b2c09df2f"
+  integrity sha512-qV5ZC0h7jYIAOhArFJgSfdyz6rALJyb270714o7ZtNnw2WSJ+eexhKtE0O8LYPRsHZHf2osHKZBxGPvm3kPkCA==
   dependencies:
     original "^1.0.0"
 
@@ -5228,25 +5129,6 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pnotify@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/pnotify/-/pnotify-5.0.1.tgz#5fb7376232e6538c4b1048ae5c8f185cc877f8d8"
-  integrity sha512-QbzJ9o2E5WpTKrXImz/Znl6bJndisXIgbUDOHV1joWrXxe6ImodFodlpgD1cKr3+R7fXp711v8WQryR3ZrN/Gw==
-  dependencies:
-    "@pnotify/animate" "5.0.1"
-    "@pnotify/bootstrap3" "5.0.1"
-    "@pnotify/bootstrap4" "5.0.1"
-    "@pnotify/confirm" "5.0.1"
-    "@pnotify/core" "5.0.1"
-    "@pnotify/countdown" "5.0.1"
-    "@pnotify/desktop" "5.0.1"
-    "@pnotify/font-awesome4" "5.0.1"
-    "@pnotify/font-awesome5" "5.0.1"
-    "@pnotify/font-awesome5-fix" "5.0.1"
-    "@pnotify/glyphicon" "5.0.1"
-    "@pnotify/mobile" "5.0.1"
-    "@pnotify/reference" "5.0.1"
-
 pnp-webpack-plugin@^1.5.0:
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.4.tgz#c9711ac4dc48a685dabafc86f8b6dd9f8df84149"
@@ -6051,9 +5933,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -6999,11 +6881,6 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@^3.0, svelte@^3.19.1:
-  version "3.20.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.20.1.tgz#8417fcd883a2f534b642a0737368272e651cf3ac"
-  integrity sha512-m/dw52BZf+p6KYnyKLErIcGalu4pwJrQbUM7VZriRw6ZlJj1qMAZsLcIWzEB3I0hhdJwkKb7LrrvUIeqmbO92Q==
-
 svgo@^1.0.0:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.3.2.tgz#b6dc511c063346c9e415b81e43401145b96d4167"
@@ -7299,9 +7176,9 @@ urix@^0.1.0:
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
